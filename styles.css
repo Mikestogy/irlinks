@@ -1,13 +1,24 @@
 body {
-  background-color:grey;
-  border: 1px solid black;
+  background-color:white;
 }
 
-h1 {
-	background-color:rgb(102, 194, 255)
+.mainlink {
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr;
+	grid-row-gap: 50px;
+	margin: 100px;
+	justify-items: center;
+
+}
+	
+.item {
+	background-color: black;
+	margin: 1px;
+	height: 100px;
+	width: 500px;
+	padding: 1px;
+	
 }
 
-#website {
-	background-color:rgb(102, 194, 255);
-	border: 1px solid black;
-}
+	
