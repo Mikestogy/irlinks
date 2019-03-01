@@ -2,23 +2,35 @@ body {
   background-color:white;
 }
 
+body {background-color: lightgray;}
+
+.flex-heading {
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	border:1px solid black;
+	height: 100px;
+	background-color: grey;
+	}
+
+
 .mainlink {
 	display: grid;
-	grid-template-rows: 1fr;
-	grid-template-columns: 1fr;
-	grid-row-gap: 50px;
-	margin: 100px;
-	justify-items: center;
-
+	grid-row-gap: 35px;
+	/*border: 1px solid black;*/
+	width: 702px;
+	margin: 35px auto;
 }
 	
 .item {
+    height: 160px;
+    width: 701px;
+    border: 1px solid black;
 	background-color: black;
-	margin: 1px;
-	height: 100px;
-	width: 500px;
-	padding: 1px;
-	
 }
 
-	
+.item img {
+  	object-fit: cover;
+	height: 160px;
+	width: 701px;	
+}
