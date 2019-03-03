@@ -1,7 +1,10 @@
 html, body {
 	height:100%;
 	margin: 0;
-	background-image: url(images/carbon.jpg)
+	background-image: url(images/carbon.jpg);
+	font-family: Verdana, Geneva, sans-serif;
+	text-shadow: 1px 1px #384e72;
+	color: #191e26;
 }
 
 .header {
@@ -15,10 +18,9 @@ html, body {
   	justify-content: center;
 	align-items:center;
 	text-align:center;
-	box-sizing:border-box;
 }
 
-.wrapper {
+.contentwrapper {
 	justify-content:center;
 	height:100%;
 	display:flex;
@@ -26,7 +28,7 @@ html, body {
 }
 	
 
-.middle {
+.right {
 	display:flex;
 	flex-direction:column;
 	width: 50%;
@@ -40,7 +42,6 @@ html, body {
 	height:25%;
 	border:1px solid black;
   	overflow: hidden;
-	box-sizing: border-box;
 	margin:15px 0;
 }
 
@@ -51,6 +52,7 @@ html, body {
   background: radial-gradient(#8290a5, #142642);
   height: 30px;
   border-bottom: 1px black solid;
+  font-size:12px;
  }
 	
 .imagecontainer1 {
@@ -80,12 +82,13 @@ html, body {
 	margin:20px 15px 20px 0;
 	border:1px solid black;
 	box-sizing:border-box;
+	background: url(images/ratl.jpg) no-repeat center;
+	background-size: cover;
 }
 
-.leftimg {
-	border-radius:10px;
-	width:100%;
-	height:100%;
-	object-fit:cover;
-}
-	
+.leftcontent {
+	padding:15px 25px;
+	margin:auto;
+	font-size:22px;
+
+	}
