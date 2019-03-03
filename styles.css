@@ -27,7 +27,7 @@ html, body {
 .leftcontent {
 	padding:10px 25px;
 	margin:10px 10px;
-	font-size:22px;
+	font-size:1.1vw;
 }	
 	
 .right {
@@ -54,7 +54,7 @@ html, body {
   background: radial-gradient(#61728e, #4a6087);
   height: 30px;
   border-bottom: 1px black solid;
-  font-size:12px;
+  font-size:.6vw;
 }
 	
 .imagecontainer1 {
