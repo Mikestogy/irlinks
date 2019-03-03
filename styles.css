@@ -8,7 +8,7 @@ html, body {
 }
 
 .header {
-	background: radial-gradient(#8290a5, #142642);
+	background: radial-gradient(#3f67aa, #010711);
 	border-radius:10px;
 	border:1px solid black;
 	margin:20px auto 0;
@@ -49,7 +49,7 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: radial-gradient(#8290a5, #142642);
+  background: radial-gradient(#3f67aa, #010711);
   height: 30px;
   border-bottom: 1px black solid;
   font-size:12px;
