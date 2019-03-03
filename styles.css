@@ -8,8 +8,8 @@ html, body {
 }
 
 .header {
-	border-radius:10px;
 	background: radial-gradient(#8290a5, #142642);
+	border-radius:10px;
 	border:1px solid black;
 	margin:20px auto 0;
 	display: flex;
